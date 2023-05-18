@@ -1,12 +1,17 @@
-import React from 'react'
-import {View, Image, StyleSheet, Text} from 'react-native'
+import React from "react";
+import {View, Image, StyleSheet, Text} from "react-native";
 
 export default function Inicio(){
     return(
-        <View style={estilos.item_login}>
-            <Image source={require('../Imagens/estacioAzul.png')} style={estilos.logo}></Image>
-            <Text style={estilos.titulo1}>Deslize</Text>
-            <Text style={estilos.titulo2}>e agende seu mundo com a ESTACIO!</Text>
+        <View>
+            <View>
+                <Image source={require('../Imagens/estacioAzul.png' )} ></Image>
+            </View>
+            <View>
+                <Text >Deslize</Text>
+                <Text >e agende seu mundo com a ESTACIO!.</Text>
+            </View>
+            
 
         </View>
     );
