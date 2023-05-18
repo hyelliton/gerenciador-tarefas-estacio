@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import Inicio from './telas/inicio'
+import Inicio from './telas/deslizar/inicio'
 
 export default function App() {
   return (
