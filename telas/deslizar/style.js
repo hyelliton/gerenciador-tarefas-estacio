@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   textTitulo_2:{
     top: 282,
-    textAlignments: 'left',
+    alignItems: 'baseline',
     fontSize: 20,
     color: "#FFFFFF",
   },

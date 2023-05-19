@@ -2,7 +2,6 @@ import React, {useRef, useCallback, useMemo} from "react";
 import {View, Text, StyleSheet, Button} from "react-native";
 import { BottomSheetModal, BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import {gestureHandlerRootHOC} from 'react-native-gesture-handler';
-import Description from "./description";
 
 function Desliza(){
     
