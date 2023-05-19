@@ -8,26 +8,25 @@ const styles = StyleSheet.create({
 	},
 
 	imgLogo:{
-    top: 10,
-    height: 80,
+    top: 250,
+    height: 75,
     width: 300,
+    alingItems: "center"
   },
 
   textTitulo_1:{
-    top: 80,
-    fontWeights: 'normal',
-    textAlignments: 'left',
+    top: 280,
+    alignItems: 'center',
     fontSize: 30,
     color: "#000000",
   },
   textTitulo_2:{
-    top: 85,
-    fontWeights: 'normal',
+    top: 282,
     textAlignments: 'left',
     fontSize: 20,
     color: "#FFFFFF",
   },
-	
+  	
 });
 
 export default styles

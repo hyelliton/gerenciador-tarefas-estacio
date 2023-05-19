@@ -2,17 +2,18 @@ import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Inicio from './telas/deslizar/inicio'
+import Desliza from './telas/deslizar/deslizar'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <LinearGradient
         colors={['#9FB9FC', '#9FB9FC', '#9FB9FC']}
-        style={styles.background}
-      />
+        style={styles.background}>
+      </LinearGradient>
+      <Inicio/>
+      <Desliza/>
 
-      <Inicio/>         
-      
     </View>
   );
 }
@@ -21,8 +22,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'stretch',
+    
   },
   background: {
     position: 'absolute',
