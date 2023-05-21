@@ -4,6 +4,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import Inicio from './telas/deslizar/inicio'
 import Desliza from './telas/deslizar/deslizar'
 
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -21,8 +22,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'stretch',
+    
     
   },
   background: {
